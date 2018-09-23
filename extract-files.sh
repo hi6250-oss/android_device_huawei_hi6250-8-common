@@ -70,6 +70,9 @@ function blob_fixup() {
 	vendor/lib*/hw/audio.primary.hi6250.so)
 	    "${PATCHELF}" --add-needed "libprocessgroup.so" "${2}"
 	    ;;
+	vendor/lib*/hw/camera.hi6250.so)
+	    "${PATCHELF}" --add-needed "libshim_fence.so" "${2}"
+	    ;;
 	vendor/lib*/libhwlog.so)
 	    "${PATCHELF}" --add-needed "libshim_log.so" "${2}"
 	    ;;

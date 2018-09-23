@@ -14,6 +14,12 @@ LOCAL_VENDOR_MODULE := true
 include $(BUILD_SHARED_LIBRARY)
 
 include $(CLEAR_VARS)
+LOCAL_SRC_FILES := fence_shim.cpp
+LOCAL_MODULE := libshim_fence
+LOCAL_VENDOR_MODULE := true
+include $(BUILD_SHARED_LIBRARY)
+
+include $(CLEAR_VARS)
 LOCAL_SRC_FILES := log_shim.cpp
 LOCAL_SHARED_LIBRARIES := liblog
 LOCAL_MODULE := libshim_log
