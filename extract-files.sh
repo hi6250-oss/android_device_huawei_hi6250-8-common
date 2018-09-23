@@ -74,6 +74,9 @@ function blob_fixup() {
 	vendor/lib*/hw/audio.primary.hisi.so)
 	    "${PATCHELF}" --add-needed "libprocessgroup.so" "${2}"
 	    ;;
+	vendor/lib*/hw/camera.hi6250.so)
+	    "${PATCHELF}" --add-needed "libshim_fence.so" "${2}"
+	    ;;
 	vendor/lib*/libbinder_v26.so)
 	    "${PATCHELF}" --add-needed "libutilscallstack.so" "${2}"
 	    ;;
