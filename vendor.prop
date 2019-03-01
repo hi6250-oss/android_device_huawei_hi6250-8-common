@@ -57,3 +57,6 @@ persist.sys.recovery_update=true
 # VoLTE
 ro.config.callinwifi=200,6
 ro.config.hw_volte_on=true
+
+# Wifi
+wifi.direct.interface=p2p-dev-wlan0
