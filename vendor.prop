@@ -5,6 +5,9 @@
 # Bluetooth
 ro.bt.bdaddr_path=/data/misc/bluedroid/macbt
 
+# Fastbootd
+ro.fastbootd.available=true
+
 # Graphics
 debug.hwui.render_dirty_regions=false
 debug.sf.latch_unsignaled=1
