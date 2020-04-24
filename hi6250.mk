@@ -187,6 +187,7 @@ PRODUCT_COPY_FILES += \
 
 # Overlay
 DEVICE_PACKAGE_OVERLAYS := $(COMMON_PATH)/overlay
+PRODUCT_ENFORCE_RRO_TARGETS := *
 
 # Power
 PRODUCT_PACKAGES += \
@@ -264,5 +265,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.wifi@1.0-service \
     hostapd \
+    WifiOverlay \
     wpa_supplicant \
     wpa_supplicant.conf
