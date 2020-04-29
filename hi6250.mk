@@ -112,6 +112,10 @@ PRODUCT_PACKAGES += \
     android.hardware.light@2.0-impl \
     android.hardware.light@2.0-service
 
+# Linker
+PRODUCT_COPY_FILES += \
+    $(COMMON_PATH)/configs/linker/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt
+
 # MAC Loader
 PRODUCT_PACKAGES += \
     mac_nvme
