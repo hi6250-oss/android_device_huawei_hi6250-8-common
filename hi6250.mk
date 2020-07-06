@@ -7,6 +7,9 @@
 ## Common Path
 COMMON_PATH := device/huawei/hi6250-8-common
 
+## Enable Scoped Storage related
+$(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
+
 ## Inherit common vendor blobs
 $(call inherit-product, vendor/huawei/hi6250-8-common/hi6250-8-common-vendor.mk)
 
