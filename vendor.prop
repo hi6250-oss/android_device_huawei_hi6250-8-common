@@ -1,0 +1,53 @@
+#
+# vendor.prop for hi6250-8-common
+#
+
+# Bluetooth
+ro.bt.bdaddr_path=/data/misc/bluedroid/macbt
+
+# Graphics
+debug.hwui.render_dirty_regions=false
+debug.sf.latch_unsignaled=1
+debug.sf.disable_backpressure=1
+ro.opengles.version=196610
+
+# Huawei
+build.hisi_perf_opt=true
+ro.config.mmu_en=1
+ro.config.hw_music_lp=true
+ro.config.hw_sensorhub=true
+ro.config.music_lp_vol=true
+ro.tui.service=true
+persist.alloc_buffer_sync=true
+persist.texture_cache_opt=1
+persist.smart_pool=1
+ro.config.hw_perfgenius=true
+ro.config.hw_board_ipa=true
+persist.cpub_min_freq_skip=1
+persist.video_player_opt=1
+persist.partial_update_support=1
+persist.skip_lowfreq=1
+persist.rog_feature=1
+ro.product.platform.pseudonym=1ARB9CV
+ro.product.platform=hi6250
+ro.config.enable_rcc=true
+bastet.service.enable=true
+
+# IR
+config.disable_consumerir=true
+
+# Media
+persist.media.lowlatency.enable=false
+persist.media.offload.enable=true
+ro.audio.offload_wakelock=false
+
+# Sdcard
+persist.fw.force_adoptable=true
+
+# Touch
+persist.touch_vsync_opt=1
+persist.touch_move_opt=1
+
+# VoLTE
+ro.config.callinwifi=200,6
+ro.config.hw_volte_on=true
