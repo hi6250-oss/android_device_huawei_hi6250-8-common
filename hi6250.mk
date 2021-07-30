@@ -216,3 +216,5 @@ PRODUCT_PACKAGES += \
     hostapd \
     wpa_supplicant \
     wpa_supplicant.conf
+
+include hardware/broadcom/wlan/bcmdhd/config/config-bcm.mk
