@@ -3,7 +3,7 @@
 #
 
 # Bluetooth
-ro.bt.bdaddr_path=/data/misc/bluedroid/macbt
+ro.bt.bdaddr_path=/data/vendor/bluedroid/macbt
 
 # Fastbootd
 ro.fastbootd.available=true
