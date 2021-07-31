@@ -10,6 +10,10 @@ COMMON_PATH := device/huawei/hi6250-8-common
 ## Inherit common vendor blobs
 $(call inherit-product, vendor/huawei/hi6250-8-common/hi6250-8-common-vendor.mk)
 
+# AAPT
+PRODUCT_AAPT_CONFIG := normal
+PRODUCT_AAPT_PREF_CONFIG := xhdpi
+
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@2.0-impl \
