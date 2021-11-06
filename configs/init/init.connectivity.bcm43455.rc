@@ -1,17 +1,3 @@
-on early-init
-
-on init
-
-on early-fs
-
-on fs
-
-on post-fs
-
-on post-fs-data
-
-
-on early-boot
 #bluetooth
 on property:bluetooth.log.file.create=true
    mkdir /data/log/bt
@@ -48,12 +34,6 @@ on boot
     # control vio from framework
     chown system system /dev/vio
 
-service wifi_wakeup_src /vendor/bin/wifiwakeupsrc
-    class core
-    user root
-    group root wifi
-    disabled
-    oneshot
 service p2p_supplicant /system/bin/wpa_supplicant -d \
     -iwlan0 -Dnl80211 -c/data/misc/wifi/wpa_supplicant.conf \
     -I/system/etc/wifi/wpa_supplicant_overlay.conf \
@@ -74,16 +54,6 @@ service wpa_supplicant /vendor/bin/hw/wpa_supplicant -d \
     -e/data/misc/wifi/entropy.bin -g@android:wpa_wlan0
     class late_start
     socket wpa_wlan0 dgram 660 wifi wifi
-    disabled
-    oneshot
-
-service hostapd /vendor/bin/hostapd \
-        -e /data/misc/wifi/entropy.bin \
-        /data/misc/wifi/hostapd.conf
-    class main
-    user wifi
-    group wifi
-    writepid /data/misc/wifi/hostapd.pid
     disabled
     oneshot
 
