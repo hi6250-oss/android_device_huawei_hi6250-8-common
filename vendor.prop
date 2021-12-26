@@ -47,5 +47,8 @@ persist.fw.force_adoptable=true
 persist.touch_vsync_opt=1
 persist.touch_move_opt=1
 
+# Recovery
+persist.sys.recovery_update=true
+
 # VoLTE
 ro.config.hw_volte_on=true
