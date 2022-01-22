@@ -9,3 +9,6 @@
 /sec_storage(/.*)?		u:object_r:teecd_data_file:s0
 /splash2(/.*)?			u:object_r:splashtwo_file:s0
 /version(/.*)?			u:object_r:version_file:s0
+
+# TEE
+/vendor/bin/teecd		u:object_r:tee_exec:s0
