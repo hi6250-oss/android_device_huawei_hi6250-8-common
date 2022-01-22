@@ -80,6 +80,9 @@ function blob_fixup() {
 	vendor/lib*/libcamera_algo.so)
 	    "${PATCHELF}" --add-needed "libsensor_v26.so" "${2}"
 	    ;;
+	vendor/lib*/libhwlog.so)
+	    "${PATCHELF}" --add-needed "libshim_log.so" "${2}"
+	    ;;
 	vendor/lib*/libsensor_v26.so)
 	    "${PATCHELF}" --add-needed "libbinder_v26.so" "${2}"
 	    ;;
