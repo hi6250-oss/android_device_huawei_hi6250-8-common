@@ -39,6 +39,7 @@ vendor/lib/hw/camera.hi6250.so
 vendor/lib/hwcam/hwcam.ddt.so
 vendor/lib/hwcam/hwcam.services.so
 vendor/lib/libHWCamCfgSvr.so
+vendor/lib/libcamerabuffer.so
 vendor/lib/vendor.huawei.hardware.ai@1.0.so
 vendor/lib/vendor.huawei.hardware.camera.camResource@1.0.so
 vendor/lib/vendor.huawei.hardware.camera.camResource@1.1.so
@@ -48,6 +49,7 @@ vendor/lib64/hw/camera.hi6250.so
 vendor/lib64/hwcam/hwcam.ddt.so
 vendor/lib64/hwcam/hwcam.services.so
 vendor/lib64/libHWCamCfgSvr.so
+vendor/lib64/libcamerabuffer.so
 vendor/lib64/vendor.huawei.hardware.ai@1.0.so
 vendor/lib64/vendor.huawei.hardware.camera.camResource@1.0.so
 vendor/lib64/vendor.huawei.hardware.camera.camResource@1.1.so
@@ -149,9 +151,11 @@ vendor/bin/hw/vendor.huawei.hardware.biometrics.fingerprint@2.1-service
 vendor/etc/init/vendor.huawei.hardware.biometrics.fingerprint@2.1-service.rc
 vendor/lib/hw/fingerprint.hi6250.so
 vendor/lib/lib_fpc_tac_shared.so
+vendor/lib/libiawareperf_client.so
 vendor/lib/vendor.huawei.hardware.biometrics.fingerprint@2.1.so
 vendor/lib64/hw/fingerprint.hi6250.so
 vendor/lib64/lib_fpc_tac_shared.so
+vendor/lib64/libiawareperf_client.so
 vendor/lib64/vendor.huawei.hardware.biometrics.fingerprint@2.1.so
 
 # Firmware
