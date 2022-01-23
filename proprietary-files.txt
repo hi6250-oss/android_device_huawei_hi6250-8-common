@@ -231,12 +231,12 @@ vendor/lib64/vendor.huawei.hardware.fm@1.0.so
 vendor/lib/hw/gatekeeper.hi6250.so
 vendor/lib64/hw/gatekeeper.hi6250.so
 
-# GPS
+# GPS - gnss_watchlssd_thirdparty from FIG-LX1 9.1.0.163(C432E8R1P5T8)
 vendor/bin/hw/vendor.huawei.hardware.gnss@1.0-service
 vendor/bin/gnss_control_hisi
 vendor/bin/gnss_engine_hisi
 vendor/bin/gnss_supl20clientd_hisi
-vendor/bin/gnss_watchlssd_thirdparty
+vendor/bin/gnss_watchlssd_thirdparty|a87fd988687868c718a386d5bc26075030a7d8a5
 vendor/etc/geoloc.conf
 vendor/etc/gnss/config/gnss_lss_config_thirdparty.bin
 vendor/etc/gnss/config/gnss_lss_rfg_key_thirdparty.pem
