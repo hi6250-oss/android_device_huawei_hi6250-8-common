@@ -1,6 +1,8 @@
 #include <string.h>
-#include <log/log.h>
 #include <stdio.h>
+#include <unistd.h>
+
+#include <log/log.h>
 
 #define LOG_BUF_SIZE 1024
 
@@ -8,6 +10,10 @@ extern "C" {
     bool android_log_shouldPrintLine(char *param_1,
         char *param_2, uint param_3) {
             return (strcmp(param_2, param_1));
+    }
+
+    void android_log_printLogLine(){
+	// Deprecated
     }
 
     int __android_logPower_print(int bufID, int prio, const char *tag,
