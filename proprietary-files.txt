@@ -419,7 +419,8 @@ vendor/lib64/libteec.so
 vendor/lib/hw/thermal.hi6250.so
 vendor/lib64/hw/thermal.hi6250.so
 
-# Widevine - WAS-LX1 8.0.0.397(C432) PREAVS
-vendor/bin/hw/android.hardware.drm@1.0-service.widevine|f8c8bf7b143cfebd6930de0eb7dafdf486445ab8
-vendor/etc/init/android.hardware.drm@1.0-service.widevine.rc|b6eb651e03e586a575e9034373c2df6a4c1fef0c
-vendor/lib/libwvhidl.so|8d046cd0fad7e84f50483ff0b25a90b5d76b6d27
+# Widevine - FIG-LX1 9.1.0.163(C432E8R1P5T8)
+vendor/bin/hw/android.hardware.drm@1.1-service.widevine|2d5aaf0d70e834d2baf5e0b1182a0948d5a0998e
+vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc|335e60d5042cfbe08f2da27087418a6997387440
+vendor/lib/libwvhidl.so|51f977f11dfdeaeec18a3e6be74a858affe80624
+vendor/lib64/libwvhidl.so|abc648df92d85883845fc05d8b7e7178e778f0a6
