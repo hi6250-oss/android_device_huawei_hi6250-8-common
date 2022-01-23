@@ -217,7 +217,8 @@ PRODUCT_PACKAGES += \
 
 # RIL
 PRODUCT_PACKAGES += \
-    librilutils
+    librilutils \
+    mploader
 
 # Sensors
 PRODUCT_PACKAGES += \

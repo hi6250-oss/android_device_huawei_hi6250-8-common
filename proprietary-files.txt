@@ -349,6 +349,7 @@ vendor/lib64/libbalong-ril-1.so
 vendor/lib64/lib_wifi_sar.so
 vendor/lib64/vendor.huawei.hardware.radio@1.0.so
 vendor/lib64/vendor.huawei.hardware.radio@1.1.so
+vendor/phone.prop
 
 # Sensors
 vendor/lib/hw/sensors.default.so:vendor/lib/hw/sensors.hi6250.so

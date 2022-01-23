@@ -190,7 +190,7 @@ service ril-daemon1 /vendor/bin/hw/rild -c 1
     user root
     group radio cache inet misc audio sdcard_r sdcard_rw log
 
-on property:sys.userdata_is_ready=1
+on property:sys.rilprops_ready=1
     start ril-daemon
 
 on property:rild.rild1_ready_to_start=true
