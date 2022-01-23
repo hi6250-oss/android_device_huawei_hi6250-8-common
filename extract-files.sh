@@ -73,6 +73,9 @@ function blob_fixup() {
 	vendor/lib*/libhwlog.so)
 	    "${PATCHELF}" --add-needed "libshim_log.so" "${2}"
 	    ;;
+	vendor/lib*/vendor.huawei.hardware.radio@1.0.so)
+	    "${PATCHELF}" --add-needed "libshim_ril.so" "${2}"
+	    ;;
     esac
 }
 
