@@ -101,8 +101,6 @@ PRODUCT_PACKAGES += \
     fstab.hi6250_ramdisk \
     init.audio.rc \
     init.balong_modem.rc \
-    init.charger.rc \
-    init.chip.charger.rc \
     init.connectivity.bcm43455.rc \
     init.connectivity.gps.rc \
     init.connectivity.hi1102.rc \
