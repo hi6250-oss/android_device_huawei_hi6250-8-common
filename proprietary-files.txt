@@ -368,7 +368,7 @@ vendor/phone.prop
 vendor/lib/hw/sensors.default.so:vendor/lib/hw/sensors.hi6250.so
 vendor/lib64/hw/sensors.default.so:vendor/lib64/hw/sensors.hi6250.so
 
-# TEE
+# TEE - DroidSansFallbackTui.ttf from EMUI 5
 vendor/bin/6c8cf255-ca98-439e-a98e-ade64022ecb6.sec
 vendor/bin/86310d18-5659-47c9-b212-841a3ca4f814.sec
 vendor/bin/883890ba-3ef8-4f0b-9c02-f5874acbf2ff.sec
@@ -424,6 +424,7 @@ vendor/bin/syna_109A0_ta.sec
 vendor/bin/syna_155A_ta.sec
 vendor/bin/syna_155A_ta_lldp.sec
 vendor/bin/teecd
+vendor/etc/DroidSansFallbackTui.ttf|a4ef62b56a09fc5a622b90a70ce19dab1c4a6a75
 vendor/etc/native_packages.xml:vendor/etc/native_packages.bin
 vendor/lib/libteec.so
 vendor/lib64/libteec.so
