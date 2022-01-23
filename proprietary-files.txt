@@ -145,10 +145,14 @@ vendor/lib64/libpf_oneimage_hisi.so
 vendor/lib64/libpf_rotate_hisi.so
 
 # Fingerprint
+vendor/bin/hw/vendor.huawei.hardware.biometrics.fingerprint@2.1-service
+vendor/etc/init/vendor.huawei.hardware.biometrics.fingerprint@2.1-service.rc
 vendor/lib/hw/fingerprint.hi6250.so
 vendor/lib/lib_fpc_tac_shared.so
+vendor/lib/vendor.huawei.hardware.biometrics.fingerprint@2.1.so
 vendor/lib64/hw/fingerprint.hi6250.so
 vendor/lib64/lib_fpc_tac_shared.so
+vendor/lib64/vendor.huawei.hardware.biometrics.fingerprint@2.1.so
 
 # Firmware
 vendor/firmware/ts/berlin_auo_ili9885.bin
@@ -224,6 +228,7 @@ vendor/lib/hw/gatekeeper.hi6250.so
 vendor/lib64/hw/gatekeeper.hi6250.so
 
 # GPS
+vendor/bin/hw/vendor.huawei.hardware.gnss@1.0-service
 vendor/bin/gnss_control_hisi
 vendor/bin/gnss_engine_hisi
 vendor/bin/gnss_supl20clientd_hisi
@@ -251,14 +256,18 @@ vendor/etc/gnss/security/gnss_entel_hisi.bks
 vendor/etc/gnss/security/gnss_iusacell_hisi.bks
 vendor/etc/gnss/security/gnss_huawei_hisi.bks
 vendor/etc/gnss/gnss_lss_thirdparty.conf
+vendor/etc/init/vendor.huawei.hardware.gnss@1.0-service.rc
 vendor/lib/libgnss_lss_gw_thirdparty.so
-vendor/lib64/hw/gps.hi1102.default.so:vendor/lib64/hw/gps.default.so
+vendor/lib/vendor.huawei.hardware.gnss@1.0.so
+vendor/lib64/hw/gps.hi1102.default.so
+vendor/lib64/hw/vendor.huawei.hardware.gnss@1.0-impl.so
 vendor/lib64/libgnss_common_hisi.so
 vendor/lib64/libgnss_lss_gw_thirdparty.so
 vendor/lib64/libgnss_supl10client_hisi.so
 vendor/lib64/libgnss_supl20client_hisi.so
 vendor/lib64/libgnss_supl20common_hisi.so
 vendor/lib64/libgnss_supl20if_hisi.so
+vendor/lib64/vendor.huawei.hardware.gnss@1.0.so
 
 # Graphics
 vendor/lib/egl/libGLES_mali.so
