@@ -189,7 +189,8 @@ PRODUCT_PACKAGES += \
 
 # RIL
 PRODUCT_PACKAGES += \
-    librilutils
+    librilutils \
+    mploader
 
 # Shims
 PRODUCT_PACKAGES += \
