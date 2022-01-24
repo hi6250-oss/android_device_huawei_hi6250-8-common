@@ -247,6 +247,13 @@ PRODUCT_PACKAGES += \
     android.hardware.vibrator@1.0-impl \
     android.hardware.vibrator@1.0-service
 
+# VNDK
+PRODUCT_COPY_FILES += \
+    prebuilts/vndk/v27/arm64/arch-arm-armv7-a-neon/shared/vndk-sp/libbacktrace.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbacktrace.so \
+    prebuilts/vndk/v27/arm64/arch-arm64-armv8-a/shared/vndk-sp/libbacktrace.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbacktrace.so \
+    prebuilts/vndk/v27/arm64/arch-arm-armv7-a-neon/shared/vndk-sp/libunwind.so:$(TARGET_COPY_OUT_VENDOR)/lib/libunwind.so \
+    prebuilts/vndk/v27/arm64/arch-arm64-armv8-a/shared/vndk-sp/libunwind.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libunwind.so
+
 # Wifi
 PRODUCT_PACKAGES += \
     android.hardware.wifi@1.0-service \
