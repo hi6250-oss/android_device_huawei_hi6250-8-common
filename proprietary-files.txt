@@ -3,6 +3,8 @@
 #
 
 # Audio
+lib/libicuuc.so:vendor/lib/libicuuc.so
+lib64/libicuuc.so:vendor/lib64/libicuuc.so
 vendor/lib/hw/audio.primary.hisi.so:vendor/lib/hw/audio.primary.hi6250.so
 vendor/lib/libasd.so
 vendor/lib/libaudio_custom.so
