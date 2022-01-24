@@ -45,6 +45,7 @@ vendor/lib/vendor.huawei.hardware.camera.camResource@1.0.so
 vendor/lib/vendor.huawei.hardware.camera.camResource@1.1.so
 vendor/lib/vendor.huawei.hardware.camera.cfgsvr@1.0.so
 vendor/lib/vendor.huawei.hardware.camera.factory@1.0.so
+vendor/lib/vendor.huawei.hardware.perfgenius@1.0.so
 vendor/lib64/hw/camera.hi6250.so
 vendor/lib64/hwcam/hwcam.ddt.so
 vendor/lib64/hwcam/hwcam.services.so
@@ -55,6 +56,7 @@ vendor/lib64/vendor.huawei.hardware.camera.camResource@1.0.so
 vendor/lib64/vendor.huawei.hardware.camera.camResource@1.1.so
 vendor/lib64/vendor.huawei.hardware.camera.cfgsvr@1.0.so
 vendor/lib64/vendor.huawei.hardware.camera.factory@1.0.so
+vendor/lib64/vendor.huawei.hardware.perfgenius@1.0.so
 
 # Camera Configs
 vendor/etc/camera/bshutter/default/algo.xml
@@ -153,10 +155,12 @@ vendor/lib/hw/fingerprint.hi6250.so
 vendor/lib/lib_fpc_tac_shared.so
 vendor/lib/libiawareperf_client.so
 vendor/lib/vendor.huawei.hardware.biometrics.fingerprint@2.1.so
+vendor/lib/vendor.huawei.hardware.iawareperf@1.0.so
 vendor/lib64/hw/fingerprint.hi6250.so
 vendor/lib64/lib_fpc_tac_shared.so
 vendor/lib64/libiawareperf_client.so
 vendor/lib64/vendor.huawei.hardware.biometrics.fingerprint@2.1.so
+vendor/lib64/vendor.huawei.hardware.iawareperf@1.0.so
 
 # Firmware
 vendor/firmware/ts/berlin_auo_ili9885.bin
