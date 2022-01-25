@@ -42,23 +42,29 @@ vendor/lib/hwcam/hwcam.ddt.so
 vendor/lib/hwcam/hwcam.services.so
 vendor/lib/libHWCamCfgSvr.so
 vendor/lib/libcamerabuffer.so
+vendor/lib/libmediacomm@2.0-client.so
 vendor/lib/vendor.huawei.hardware.ai@1.0.so
 vendor/lib/vendor.huawei.hardware.camera.camResource@1.0.so
 vendor/lib/vendor.huawei.hardware.camera.camResource@1.1.so
 vendor/lib/vendor.huawei.hardware.camera.cfgsvr@1.0.so
 vendor/lib/vendor.huawei.hardware.camera.factory@1.0.so
+vendor/lib/vendor.huawei.hardware.graphics.mediacomm@2.0.so
 vendor/lib/vendor.huawei.hardware.perfgenius@1.0.so
+vendor/lib/vendor.huawei.hardware.sensors@1.0.so
 vendor/lib64/hw/camera.hi6250.so
 vendor/lib64/hwcam/hwcam.ddt.so
 vendor/lib64/hwcam/hwcam.services.so
 vendor/lib64/libHWCamCfgSvr.so
 vendor/lib64/libcamerabuffer.so
+vendor/lib64/libmediacomm@2.0-client.so
 vendor/lib64/vendor.huawei.hardware.ai@1.0.so
 vendor/lib64/vendor.huawei.hardware.camera.camResource@1.0.so
 vendor/lib64/vendor.huawei.hardware.camera.camResource@1.1.so
 vendor/lib64/vendor.huawei.hardware.camera.cfgsvr@1.0.so
 vendor/lib64/vendor.huawei.hardware.camera.factory@1.0.so
+vendor/lib64/vendor.huawei.hardware.graphics.mediacomm@2.0.so
 vendor/lib64/vendor.huawei.hardware.perfgenius@1.0.so
+vendor/lib64/vendor.huawei.hardware.sensors@1.0.so
 
 # Camera Configs
 vendor/etc/camera/bshutter/default/algo.xml
