@@ -22,9 +22,10 @@ vendor/lib64/libtas2560.so
 vendor/lib64/libtfa9895.so
 vendor/lib64/libtuner553.so
 
-# Audio Configs - FIG-LX1 9.1.0.163(C432E8R1P5T8)
-vendor/etc/audio/audio_effects.xml|53cc7ac57da48c324613792e5a7c9eca2c17d989
-vendor/etc/audio/audio_policy_configuration.xml|13ce1694762d63bdb7c2e96b154f28efdef00372
+# Audio Configs
+vendor/etc/audio_policy_configuration.xml
+vendor/etc/audio_policy_volumes_drc.xml
+vendor/etc/default_volume_tables.xml
 
 # Audio Effects
 vendor/lib/soundfx/libhuaweiprocessing.so
