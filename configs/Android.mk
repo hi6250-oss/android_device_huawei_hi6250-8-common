@@ -7,6 +7,17 @@
 LOCAL_PATH := $(call my-dir)
 
 #
+# audio
+#
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := audio_effects.xml
+LOCAL_SRC_FILES := audio/audio_effects.xml
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR_ETC)
+include $(BUILD_PREBUILT)
+
+#
 # init
 #
 
