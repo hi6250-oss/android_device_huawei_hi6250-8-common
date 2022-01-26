@@ -86,6 +86,9 @@ function blob_fixup() {
 	vendor/lib*/libsensor_v26.so)
 	    "${PATCHELF}" --add-needed "libbinder_v26.so" "${2}"
 	    ;;
+	vendor/lib*/libxcollie.so)
+	    "${PATCHELF}" --add-needed "libshim_base.so" "${2}"
+	    ;;
 	vendor/lib*/vendor.huawei.hardware.radio@1.0.so)
 	    "${PATCHELF}" --add-needed "libshim_ril.so" "${2}"
 	    ;;
