@@ -216,6 +216,7 @@ PRODUCT_PACKAGES += \
 
 # Shims
 PRODUCT_PACKAGES += \
+    libshim_base \
     libshim_log \
     libshim_ril
 
