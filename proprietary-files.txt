@@ -37,6 +37,7 @@ vendor/lib64/soundfx/liboffloadvisualizer.so
 vendor/etc/bluetooth/bt_vendor.conf
 
 # Camera
+lib64/libtinyxml2.so:vendor/lib64/libtinyxml2_v26.so
 vendor/bin/CameraDaemon
 vendor/lib/hw/camera.hi6250.so
 vendor/lib/hwcam/hwcam.ddt.so
