@@ -1,3 +1,5 @@
 on init
     setprop sys.usb.configfs 1
     symlink /dev/block/platform/hi_mci.0 /dev/block/bootdevice
+    # Needed for stock kernel cuz broken dt fstab
+    symlink /dev/block/platform/hi_mci.0/by-name /by-name
