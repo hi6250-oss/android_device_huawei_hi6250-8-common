@@ -48,7 +48,6 @@ on boot
     # control vio from framework
     chown system system /dev/vio
 
-
 service wifi_wakeup_src /vendor/bin/wifiwakeupsrc
     class core
     user root
@@ -88,3 +87,9 @@ service hostapd /vendor/bin/hostapd \
     disabled
     oneshot
 
+on post-fs-data
+    mkdir /data/vendor/wifi 0771 wifi wifi
+    mkdir /data/vendor/wifi/wpa 0770 wifi wifi
+    mkdir /data/vendor/wifi/wpa/sockets 0770 wifi wifi
+    mkdir /data/vendor/log/wifi 0770 wifi system
+    mkdir /data/vendor/bluedroid 0771 bluetooth bluetooth
