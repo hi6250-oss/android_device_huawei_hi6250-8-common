@@ -390,6 +390,7 @@ vendor/lib64/hw/sensors.default.so:vendor/lib64/hw/sensors.hi6250.so
 
 # TEE - DroidSansFallbackTui.ttf from EMUI 5
 bin/system_teecd:vendor/bin/system_teecd
+etc/native_packages.xml:vendor/etc/system_packages.bin
 lib/libtuidaemon.so:vendor/lib/libtuidaemon.so
 lib64/libtuidaemon.so:vendor/lib64/libtuidaemon.so
 vendor/bin/6c8cf255-ca98-439e-a98e-ade64022ecb6.sec
@@ -449,6 +450,7 @@ vendor/bin/syna_155A_ta_lldp.sec
 vendor/bin/teecd
 vendor/etc/DroidSansFallbackTui.ttf|a4ef62b56a09fc5a622b90a70ce19dab1c4a6a75
 vendor/etc/native_packages.xml:vendor/etc/native_packages.bin
+vendor/etc/res_pkgs.bin|dacfab03cfd88b2533855dfa8a4d060765c6c642
 vendor/lib/libteec.so
 vendor/lib64/libteec.so
 

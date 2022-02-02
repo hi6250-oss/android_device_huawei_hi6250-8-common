@@ -60,6 +60,10 @@ fi
 
 function blob_fixup() {
     case "${1}" in
+	vendor/bin/teecd)
+	    sed -i 's|/system/etc/native_packages.xml|/vendor/etc/system_packages.xml|g' "${2}"
+	    sed -i 's|/res/native_packages.xml|/vendor/etc/res_pkgs.xml|g' "${2}"
+	    ;;
 	vendor/etc/camera/*.xml)
 	    sed -i 's/gb2312/utf-8/g' "${2}"
 	    sed -i 's/GB2312/UTF-8/g' "${2}"
