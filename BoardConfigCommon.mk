@@ -30,6 +30,9 @@ BOARD_HAVE_BLUETOOTH_BCM := true
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := hi6250
 
+# Charger
+BACKLIGHT_PATH := /sys/class/leds/lcd_backlight0/brightness
+
 # Filesystem
 TARGET_USERIMAGES_USE_EXT4 := true
 

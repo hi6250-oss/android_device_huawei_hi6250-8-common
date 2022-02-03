@@ -306,6 +306,11 @@ on charger
     write /sys/class/devfreq/ddrfreq_up_threshold/max_freq 933000000
     write /sys/class/devfreq/ddrfreq_up_threshold/min_freq 933000000
 
+    chown system system /sys/class/leds/lcd_backlight0/brightness
+    chmod 644 /sys/class/leds/lcd_backlight0/brightness
+    chown system system /sys/class/leds/lcd_backlight0/max_brightness
+    chmod 644 /sys/class/leds/lcd_backlight0/max_brightness
+
     class_start charger
 
 on fs
