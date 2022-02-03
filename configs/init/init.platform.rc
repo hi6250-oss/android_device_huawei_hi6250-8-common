@@ -42,9 +42,6 @@ on fs
     restorecon       /sys/class/graphics/fb0/lcd_cabc_mode
     restorecon       /sys/class/leds/torch/flash_thermal_protect
 
-on charger
-    class_start core
-
 on post-fs-data
 
     mkdir /data/hwzd_logs
