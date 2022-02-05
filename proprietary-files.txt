@@ -44,6 +44,7 @@ lib64/libsensor.so:vendor/lib64/libsensor_v26.so
 lib64/libtinyxml2.so:vendor/lib64/libtinyxml2_v26.so
 vendor/bin/CameraDaemon
 vendor/lib/hw/camera.hi6250.so
+vendor/lib/hw/vendor.huawei.hardware.camera.factory@1.0-impl.so
 vendor/lib/hwcam/hwcam.ddt.so
 vendor/lib/hwcam/hwcam.services.so
 vendor/lib/libHWCamCfgSvr.so
@@ -59,6 +60,7 @@ vendor/lib/vendor.huawei.hardware.perfgenius@1.0.so
 vendor/lib/vendor.huawei.hardware.sensors@1.0.so
 vendor/lib64/hw/CameraFactoryService.so
 vendor/lib64/hw/camera.hi6250.so
+vendor/lib64/hw/vendor.huawei.hardware.camera.factory@1.0-impl.so
 vendor/lib64/hwcam/hwcam.ddt.so
 vendor/lib64/hwcam/hwcam.services.so
 vendor/lib64/libHWCamCfgSvr.so
