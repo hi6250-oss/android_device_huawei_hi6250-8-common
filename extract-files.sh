@@ -77,6 +77,9 @@ function blob_fixup() {
 	vendor/lib*/hw/camera.hi6250.so)
 	    "${PATCHELF}" --add-needed "libshim_fence.so" "${2}"
 	    ;;
+	vendor/lib*/libbinder_v26.so)
+	    "${PATCHELF}" --add-needed "libutilscallstack.so" "${2}"
+	    ;;
 	vendor/lib*/libcamera_algo.so)
 	    "${PATCHELF}" --add-needed "libsensor_v26.so" "${2}"
 	    ;;
