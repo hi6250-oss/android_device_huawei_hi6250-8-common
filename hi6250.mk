@@ -266,3 +266,5 @@ PRODUCT_PACKAGES += \
     WifiOverlay \
     wpa_supplicant \
     wpa_supplicant.conf
+
+include hardware/broadcom/wlan/bcmdhd/config/config-bcm.mk
