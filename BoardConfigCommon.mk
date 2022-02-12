@@ -100,6 +100,10 @@ BOARD_ROOT_EXTRA_FOLDERS += \
     splash2 \
     version
 
+# SDK
+TARGET_PROCESS_SDK_VERSION_OVERRIDE += \
+    /vendor/bin/hw/rild=27
+
 # SELinux
 BOARD_VENDOR_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/vendor
 
