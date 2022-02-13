@@ -341,6 +341,7 @@ on fs
 on early-boot
 # add for GPU
 on boot
+    stop console
 ## To use software render:
 # set qemu=1 use libGLES_android.so;
 # set qemu.gles=0 use gralloc.default.so and hwcomposer.default.so;
