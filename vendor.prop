@@ -37,9 +37,6 @@ ro.tui.service=true
 # Media
 persist.media.offload.enable=true
 
-# NFC
-ro.hardware.nfc_nci=nqx.default
-
 # Sdcard
 persist.fw.force_adoptable=true
 
