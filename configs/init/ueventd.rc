@@ -79,3 +79,4 @@
 /dev/block/mmcblk0p53				0660	system	system
 /dev/tas2560					0660	system	audio
 /dev/pn544					0660	nfc	nfc
+/dev/hwlog_exception				0664	system	log
