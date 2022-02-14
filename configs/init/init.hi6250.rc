@@ -353,8 +353,8 @@ on boot
 #   setprop ro.kernel.qemu.gles 1
 
 on post-fs-data
-    mkdir /data/nfc
-    chown nfc nfc /data/nfc
+    mkdir /data/vendor/nfc
+    chown nfc nfc /data/vendor/nfc
 
     mkdir /data/share 0770 media_rw media_rw
     chown media_rw media_rw /data/share
