@@ -359,8 +359,8 @@ on boot
 on post-fs-data
     setprop vold.post_fs_data_done 1
 
-    mkdir /data/nfc
-    chown nfc nfc /data/nfc
+    mkdir /data/vendor/nfc
+    chown nfc nfc /data/vendor/nfc
 
     mkdir /data/share 0770 media_rw media_rw
     chown media_rw media_rw /data/share
