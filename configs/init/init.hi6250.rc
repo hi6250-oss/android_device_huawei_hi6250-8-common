@@ -306,6 +306,11 @@ on charger
     write /sys/class/devfreq/ddrfreq_up_threshold/max_freq 933000000
     write /sys/class/devfreq/ddrfreq_up_threshold/min_freq 933000000
 
+    start hwservicemanager
+    start servicemanager
+    wait_for_prop hwservicemanager.ready true
+    start vendor.light-hal-2-0
+
     class_start charger
 
 on fs
