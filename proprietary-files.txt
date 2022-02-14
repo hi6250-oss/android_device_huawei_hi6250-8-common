@@ -238,10 +238,12 @@ vendor/lib64/vendor.huawei.hardware.fm@1.0.so
 
 # GPS - gnss_watchlssd_thirdparty from FIG-LX1 9.1.0.163(C432E8R1P5T8)
 vendor/bin/hw/vendor.huawei.hardware.gnss@1.0-service
+vendor/bin/hw/vendor.huawei.hardware.hisupl@1.0-service
 vendor/bin/gnss_control_hisi
 vendor/bin/gnss_engine_hisi
 vendor/bin/gnss_supl20clientd_hisi
 vendor/bin/gnss_watchlssd_thirdparty|a87fd988687868c718a386d5bc26075030a7d8a5
+vendor/bin/gpsdaemon
 vendor/etc/geoloc.conf
 vendor/etc/gnss/config/gnss_lss_config_thirdparty.bin
 vendor/etc/gnss/config/gnss_lss_rfg_key_thirdparty.pem
@@ -266,10 +268,14 @@ vendor/etc/gnss/security/gnss_iusacell_hisi.bks
 vendor/etc/gnss/security/gnss_huawei_hisi.bks
 vendor/etc/gnss/gnss_lss_thirdparty.conf
 vendor/etc/init/vendor.huawei.hardware.gnss@1.0-service.rc
+vendor/etc/init/vendor.huawei.hardware.hisupl@1.0-service.rc
 vendor/lib/libgnss_lss_gw_thirdparty.so
 vendor/lib/vendor.huawei.hardware.gnss@1.0.so
+vendor/lib/vendor.huawei.hardware.hisupl@1.0.so
 vendor/lib64/hw/gps.hi1102.default.so
+vendor/lib64/hw/hisupl.hi1102.default.so
 vendor/lib64/hw/vendor.huawei.hardware.gnss@1.0-impl.so
+vendor/lib64/hw/vendor.huawei.hardware.hisupl@1.0-impl.so
 vendor/lib64/libgnss_common_hisi.so
 vendor/lib64/libgnss_lss_gw_thirdparty.so
 vendor/lib64/libgnss_supl10client_hisi.so
@@ -277,6 +283,7 @@ vendor/lib64/libgnss_supl20client_hisi.so
 vendor/lib64/libgnss_supl20common_hisi.so
 vendor/lib64/libgnss_supl20if_hisi.so
 vendor/lib64/vendor.huawei.hardware.gnss@1.0.so
+vendor/lib64/vendor.huawei.hardware.hisupl@1.0.so
 
 # Graphics
 vendor/lib/egl/libGLES_mali.so
