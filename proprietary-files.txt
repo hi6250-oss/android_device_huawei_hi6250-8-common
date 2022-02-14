@@ -345,6 +345,10 @@ vendor/etc/modemConfig/VIA/basic_name
 vendor/etc/modemConfig/VIA/viacbp82d_FieldTest.bcfg
 vendor/etc/factory_modem.cfg
 
+# OEMInfo - oeminfo_nvm_server taken from WAS-LX1 8.0.0.397(C432) ramdisk
+vendor/bin/oeminfo_gamma
+vendor/bin/oeminfo_nvm_server|4e54b2d0d8f9ce97b8f6b98aee8951706dab612f
+
 # OMX - edited media_codecs_performance.xml from WAS-LX1 8.0.0.397(C432)
 vendor/etc/media_codecs.xml
 vendor/etc/media_codecs_performance.xml|b3ec45baf998b10d2915981ebb2f65e33e04fac4
