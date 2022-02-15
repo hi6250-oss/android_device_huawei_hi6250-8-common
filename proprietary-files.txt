@@ -12,7 +12,7 @@ vendor/lib/libmax98925.so
 vendor/lib/libsmartpakit.so
 vendor/lib/libtas2560.so
 vendor/lib/libtfa9895.so
-vendor/lib64/libtuner553.so
+vendor/lib/libtuner553.so
 vendor/lib64/hw/audio.primary.hisi.so:vendor/lib64/hw/audio.primary.hi6250.so
 vendor/lib64/libasd.so
 vendor/lib64/libaudio_custom.so
