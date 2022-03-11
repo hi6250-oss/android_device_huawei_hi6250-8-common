@@ -202,3 +202,14 @@ LOCAL_SRC_FILES := linker/public.libraries.txt
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR_ETC)
 include $(BUILD_PREBUILT)
+
+#
+# nfc
+#
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libnfc-nci.conf
+LOCAL_SRC_FILES := nfc/libnfc-nci.conf
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR_ETC)
+include $(BUILD_PREBUILT)
