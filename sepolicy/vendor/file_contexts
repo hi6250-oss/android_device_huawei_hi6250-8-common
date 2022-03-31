@@ -1,3 +1,16 @@
+# Audio
+/(vendor|system/vendor)/bin/hw/vendor\.huawei\.hardware\.audio@[0-9]\.[0-9]-service	u:object_r:hal_audio_default_exec:s0
+
+# DRM
+/(vendor|system/vendor)/bin/hw/android\.hardware\.drm@[0-9]\.[0-9]-service\.widevine	u:object_r:hal_drm_widevine_exec:s0
+
+# Fingerprint
+/(vendor|system/vendor)/bin/hw/vendor\.huawei\.hardware\.biometrics\.fingerprint@[0-9]\.[0-9]-service	u:object_r:hal_fingerprint_default_exec:s0
+
+# GPS
+/(vendor|system/vendor)/bin/hw/vendor\.huawei\.hardware\.gnss@[0-9]\.[0-9]-service	u:object_r:hal_gnss_default_exec:s0
+/(vendor|system/vendor)/bin/hw/vendor\.huawei\.hardware\.hisupl@[0-9]\.[0-9]-service	u:object_r:hal_hisupl_default_exec:s0
+
 # Root
 /3rdmodem(/.*)?			u:object_r:thirdmodem_file:s0
 /3rdmodemnvm(/.*)?		u:object_r:thirdmodemnvm_file:s0
@@ -9,6 +22,9 @@
 /sec_storage(/.*)?		u:object_r:teecd_data_file:s0
 /splash2(/.*)?			u:object_r:splashtwo_file:s0
 /version(/.*)?			u:object_r:version_file:s0
+
+# Sensors
+/(vendor|system/vendor)/bin/hw/vendor\.huawei\.hardware\.sensors@[0-9]\.[0-9]-service	u:object_r:hal_sensors_default_exec:s0
 
 # TEE
 /vendor/bin/teecd		u:object_r:tee_exec:s0
