@@ -56,14 +56,11 @@ BOARD_ROOT_EXTRA_FOLDERS += \
     3rdmodem \
     3rdmodemnvm \
     3rdmodemnvmbkp \
-    cust \
     mnvm2:0 \
     modem_fw \
     modem_log \
-    patch_hw \
     sec_storage \
-    splash2 \
-    version
+    splash2
 
 # Vendor
 BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
