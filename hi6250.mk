@@ -7,6 +7,9 @@
 ## Common Path
 COMMON_PATH := device/huawei/hi6250-8-common
 
+## Inherit common vendor blobs
+$(call inherit-product, vendor/huawei/hi6250-8-common/hi6250-8-common-vendor.mk)
+
 # HIDL
 PRODUCT_PACKAGES += \
     android.hidl.base@1.0 \
