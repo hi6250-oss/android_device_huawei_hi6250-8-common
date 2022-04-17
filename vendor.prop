@@ -40,6 +40,10 @@ bastet.service.enable=true
 # IR
 config.disable_consumerir=true
 
+# Logs
+persist.log.tag.hwcomposer=S
+persist.log.tag.DISPLAY=S
+
 # Media
 persist.media.lowlatency.enable=false
 persist.media.offload.enable=true
