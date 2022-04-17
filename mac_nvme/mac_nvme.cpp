@@ -18,8 +18,8 @@
 #define MAC_LEN 12 // mac length without ':'
 #define MAC_ENTRY_MAX_LEN 28 // max length of mac entry inside nvme
 
-#define WLAN_MAC_FILE "/data/misc/wifi/macwifi"
-#define BT_MAC_FILE "/data/misc/bluedroid/macbt"
+#define WLAN_MAC_FILE "/data/vendor/wifi/macwifi"
+#define BT_MAC_FILE "/data/vendor/bluedroid/macbt"
 
 std::ifstream open_nvme() {
     std::ifstream nvme(NVME_PATH);
