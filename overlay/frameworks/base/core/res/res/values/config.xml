@@ -258,4 +258,10 @@
         <!-- The standard AOSP fused location provider -->
         <item>com.android.location.fused</item>
      </string-array>
+
+    <!-- Specify if the fingerprint hardware support gestures-->
+    <bool name="config_fingerprintSupportsGestures">true</bool>
+
+    <!-- Enable system navigation keys. -->
+    <bool name="config_supportSystemNavigationKeys">true</bool>
 </resources>
