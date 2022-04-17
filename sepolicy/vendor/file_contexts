@@ -11,6 +11,9 @@
 /(vendor|system/vendor)/bin/hw/vendor\.huawei\.hardware\.gnss@[0-9]\.[0-9]-service	u:object_r:hal_gnss_default_exec:s0
 /(vendor|system/vendor)/bin/hw/vendor\.huawei\.hardware\.hisupl@[0-9]\.[0-9]-service	u:object_r:hal_hisupl_default_exec:s0
 
+# OEMinfo
+/(vendor|system/vendor)/bin/oeminfo_nvm_server	u:object_r:oeminfo_nvm_exec:s0
+
 # Root
 /3rdmodem(/.*)?			u:object_r:thirdmodem_file:s0
 /3rdmodemnvm(/.*)?		u:object_r:thirdmodemnvm_file:s0
