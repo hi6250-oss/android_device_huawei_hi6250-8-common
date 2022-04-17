@@ -1,0 +1,25 @@
+cc_library_shared {
+    name: "libshim_base",
+    srcs: ["base_shim.cpp"],
+    shared_libs: ["libbase"],
+    vendor: true,
+}
+
+cc_library_shared {
+    name: "libshim_fence",
+    srcs: ["fence_shim.cpp"],
+    vendor: true,
+}
+
+cc_library_shared {
+    name: "libshim_log",
+    srcs: ["log_shim.cpp"],
+    shared_libs: ["liblog"],
+    vendor: true,
+}
+
+cc_library_shared {
+    name: "libshim_ril",
+    srcs: ["ril_shim.cpp"],
+    vendor: true,
+}
