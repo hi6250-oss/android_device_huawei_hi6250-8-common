@@ -95,6 +95,9 @@ function blob_fixup() {
 	vendor/lib*/vendor.huawei.hardware.radio@1.0.so)
 	    "${PATCHELF}" --add-needed "libshim_ril.so" "${2}"
 	    ;;
+	vendor/lib64/libperfhub_service.so)
+	    "${PATCHELF}" --add-needed "libtinyxml2_v26.so" "${2}"
+	    ;;
     esac
 }
 
