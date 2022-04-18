@@ -71,7 +71,7 @@ function blob_fixup() {
 	vendor/lib*/egl/libGLES_mali.so|vendor/lib*/hw/gralloc.hi6250.so)
 	    "${PATCHELF}" --add-needed "libutilscallstack.so" "${2}"
 	    ;;
-	vendor/lib*/hw/audio.primary.hisi.so)
+	vendor/lib*/hw/audio.primary.hisi.so|vendor/lib*/libhivwservice.so)
 	    "${PATCHELF}" --add-needed "libprocessgroup.so" "${2}"
 	    ;;
 	vendor/lib*/hw/camera.hi6250.so)
