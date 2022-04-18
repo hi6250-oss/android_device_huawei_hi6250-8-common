@@ -420,9 +420,6 @@ vendor/etc/factory_modem.cfg
 vendor/bin/oeminfo_nvm_server|4e54b2d0d8f9ce97b8f6b98aee8951706dab612f
 
 # OMX
-vendor/etc/media_codecs.xml
-vendor/etc/media_codecs_performance.xml
-vendor/etc/media_profiles_V1_0.xml
 vendor/lib/libomx_vxd.so
 vendor/lib/libomx_vxe.so
 vendor/lib/libstagefrighthw.so
